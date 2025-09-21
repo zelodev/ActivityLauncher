@@ -21,7 +21,7 @@ jobs:
     - name: Download dependencies
       run: ./gradlew androidDependencies
     - name: Build release APK
-      run: ./gradlew assembleOssRelease
+      run: ./gradlew assembleRelease
       env:
         APPID: de.szalkowski.activitylauncher.oss
     - name: Upload Release APK

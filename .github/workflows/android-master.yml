@@ -3,7 +3,7 @@ name: Build APK
 on:
   push:
     branches:
-      - 'master'
+      - '1.14.4'
 
 jobs:
   build:
